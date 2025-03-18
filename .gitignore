@@ -1,0 +1,34 @@
+# Node.js зависимости
+node_modules/
+npm-debug.log*
+
+# Лог-файлы
+logs/
+*.log
+debug.log
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Секретные ключи и конфигурации
+.env
+*.local
+
+# Базовые файлы и настройки IDE/редактора
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Кэш и временные файлы
+.cache/
+dist/
+tmp/
+out/
+
+# Docker
+docker-compose.override.yml
+
+# MongoDB
+dump/
+*.lock

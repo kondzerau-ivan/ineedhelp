@@ -1,0 +1,21 @@
+{
+  "name": "ineedhelp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prod": "node ./index.js",
+    "dev": "node --watch --trace-warnings ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cowsay": "^1.6.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "mongoose": "^8.12.1"
+  }
+}
