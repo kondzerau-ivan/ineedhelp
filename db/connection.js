@@ -15,3 +15,4 @@ try {
 }
 
 export const db = mongoClient.db('ineedhelp');
+export const usersCollection = db.collection('users');
